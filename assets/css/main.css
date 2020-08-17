@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body {
 		background-color: #0f0e13;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #0f0e13 15%, #496a5d 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgb(15, 14, 19) 15%, rgb(73, 106, 93) 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #0f0e13 15%, #496a5d 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #0f0e13 15%, #496a5d 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #0f0e13 15%, #496a5d 85%);
@@ -3321,9 +3321,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#nav {
+			/* #nav {
 				display: none;
-			}
+			} */
 
 				#nav + #main {
 					padding-top: 0;
