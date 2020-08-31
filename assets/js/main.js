@@ -47,7 +47,12 @@
 			// Links.
 				var $nav_a = $nav.find('a');
 				var $scr = $('#scr');
-
+				if($scr.length>0){
+                    $scr.scrolly({
+                        speed: 1000,
+                        offset: function() { return $scr.height(); }
+                    });
+                }
 				$nav_a.scrolly({
 						speed: 1000,
 						offset: function() { return $nav.height(); }
