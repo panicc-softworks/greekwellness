@@ -46,9 +46,9 @@
 
 			// Links.
 				var $nav_a = $nav.find('a');
+				var $scr = $('#scr');
 
-				$nav_a
-					.scrolly({
+				$nav_a.scrolly({
 						speed: 1000,
 						offset: function() { return $nav.height(); }
 					})
@@ -113,6 +113,8 @@
 
 					});
 
+
+					
 		}
 
 	// Scrolly.

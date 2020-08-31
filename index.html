@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 </head>
 
-<body class="is-preload">
+<body> <!-- class is-preload -->
   <!-- Wrapper -->
   <div id="wrapper">
     <!-- Header -->
@@ -20,20 +20,21 @@
       <p>
         Consultation the Greek way!
       </p>
+      <a href="#intro" id="scr">Scroll to begin!</br><i class="fas fa-chevron-down"></i></a>
     </header>
 
     <!-- Nav -->
     <nav id="nav">
       <ul>
         <li>
-          <a href="#intro" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
+          <a href="#intro"><i class="fa fa-home" aria-hidden="true"></i></a>
         </li>
         <li><a href="#first">About Us</a></li>
-        <li><a href="#second">Contact</a></li>
-        <li><a href="#third">Services</a></li>
-        <li><a href="#cta">Vacation</a></li>
+        <li><a href="#second">Our Services</a></li>
+        <li><a href="#third">Contact Us</a></li>
+        <!-- <li><a href="#cta">Vacation</a></li> -->
         <li>
-          <a href="./login/" target="_blank" class="button icon solid fa-sign-in-alt">Login</a>
+          <a href="./login/" target="_blank" class="button icon solid fa-sign-in-alt">Dashboard</a>
         </li>
       </ul>
     </nav>
@@ -59,7 +60,7 @@
 							<li><a href="generic.html" class="button">Learn More</a></li>
 						</ul> -->
           </div>
-          <!-- <span class="image"><img src="images/pic01.jpg" alt="" /></span> -->
+          <span class="image"><img src="images/pic01.jpg" alt="" /></span>
         </div>
       </section>
 
@@ -190,6 +191,37 @@
 
       <!-- Second Section -->
       <section id="second" class="main special">
+        
+        <header class="major">
+          <h2>Our services</h2>
+        </header>
+        
+        <div>
+          <p>
+            <a style="text-decoration:underline" href="service1.html"><strong>ENDOTHERAPIA CONSULTATION</strong></a><br>
+            Biochemistry and Genetics: the keys to Evexia<br><br>
+            Personal approach to better understand your individual physiology and the interactions with the environment
+            (lifestyle). Based on the extensive work up we create evidence based recommendations.<br><br><br>
+<a style="text-decoration:underline" href="service2.html"><strong>GREEKEVEXIA CONSULTATION</strong></a><br>
+Wellness the Greek Way !<br><br>
+A Wellness consultation with "heavy" Greek influence. Diet and lifestyle modifications based on your
+individual profile.<br><br><br>
+
+<a style="text-decoration:underline" href="service3.html"><strong>RABY INTEGRATIVE MEDICINE CONSULTATION</strong></a><br>
+The integrative approach to healing is appropriate for anyone who is seeking treatment for a disease, or
+            support in improving and maintaining health and wellness.<br><br>
+            The Raby Institute for Integrative Medicine is the premier center for integrative healing in the heart of
+            Chicago. The Institute seamlessly combines the best of science-based Western medicine with the time-tested,
+            holistic healing approaches of ancient cultures to create a system of health and wellness that honors the
+            whole person.
+
+          </p>
+          </div>
+        
+      </section>
+      <section id="third" class="main special">
+        
+
         <header class="major">
           <h2>Ready to experience </br><strong>GREEKEVEXIA</strong>?</h2>
           <p>
@@ -214,7 +246,7 @@
               <p>Please tell us your concerns, goals and degree of motivation.</p>
             </div>
             <div class="col-12">
-              <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+              <textarea style="resize: vertical;" name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
             </div>
             <div class="col-12">
               <ul class="actions">
@@ -225,55 +257,11 @@
             </div>
           </div>
         </form>
-      </section>
-      <section id="third" class="main special">
-        <header class="major">
-          <h2>Our services</h2>
-        </header>
-        <div class="container">
-        <div class="row">
-          <div class="col-4 mx-auto">
-            ENDOTHERAPIA CONSULTATION
-          </div>
-          <div class="col-4 mx-auto">
-            GREEKEVEXIA CONSULTATION
-          </div>
-          <div class="col-4 mx-auto">
-            RABY INTEGRATIVE MEDICINE CONSULTATION
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-4 mx-auto">
-            Biochemistry and Genetics : the keys to Evexia
-          </div>
-          <div class="col-4 mx-auto">
-            Wellness the Greek Way !
-          </div>
-          <div class="col-4 mx-auto">
-            The integrative approach to healing is appropriate for anyone who is seeking treatment for a disease, or
-            support in improving and maintaining health and wellness
-          </div>
-        </div>
-        </br>
-        <div class="row">
-          <div class="col-4 mx-auto">
-            Personal approach to better understand your individual physiology and the interactions with the environment
-            (lifestyle). Based on the extensive work up we create evidence based recommendations.
-          </div>
-          <div class="col-4 mx-auto">
-            A Wellness consultation with "heavy" Greek influence. Diet and lifestyle modifications based on your
-            individual profile.
-          </div>
-          <div class="col-4 mx-auto">
-            The Raby Institute for Integrative Medicine is the premier center for integrative healing in the heart of
-            Chicago. The Institute seamlessly combines the best of science-based Western medicine with the time-tested,
-            holistic healing approaches of ancient cultures to create a system of health and wellness that honors the
-            whole person.
-          </div>
-        </div>
+
+
       </section>
       <!-- Get Started -->
-      <section id="cta" class="main special">
+      <!-- <section id="cta" class="main special">
         <header class="major">
           <h2>GREEKEVEXIA Vacation</h2>
           <p>
@@ -286,8 +274,8 @@
         <div class="row gtr-uniform">
           <iframe style="width: 50000%; height:600px"
             src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSc5jE0kpDgHz0kxoZJ77uIo8cIL3gK1p2VlBmWUp2LkAidrencsjcoO5Hr8tzF74OGOpk6d_3oiI24/pubhtml?gid=877544289&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-        </div>
-        <header class="major">
+        </div> -->
+        <!-- <header class="major">
           <h2>Additional Information</h2>
         </header>
         <form method="post" action="#">
@@ -312,9 +300,9 @@
               </ul>
             </div>
           </div>
-        </form>
+        </form> -->
     </div>
-    </section>
+    <!-- </section> -->
 
     <!-- Footer -->
     <footer id="footer">
@@ -377,6 +365,7 @@
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
+  
 </body>
 
 </html>
